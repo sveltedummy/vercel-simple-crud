@@ -1,6 +1,6 @@
 # Vercel Simple Serverless CRUD API
-
-**Sign up for Vercel, then you can set up and deploy a site with..**
+   
+**Sign up for Vercel, then you can set up and deploy a site with..**   
 `$ npm intall -g vercel`   
 `$ vercel init svelte name_of_project` (might be prompted to connect account)   
 `$ cd name_of_project`   
@@ -9,8 +9,8 @@
 `(hit enter, enter, enter, enter)`   
 for override settings type..   
 `y, enter, down, down, space, enter, npm run dev`   
-
-**Do this to the Code**
+   
+**Do this to the Code**   
 rename api/date.js to crud.js
 paste this in crud.js
 
@@ -32,8 +32,8 @@ module.exports = function (req, res) {
   }
 };
 ```
-
-**Try it out**
+   
+**Try it out**   
 `$ vercel dev`    
 then try it at `localhost:3000/api/crud`   
 or    
