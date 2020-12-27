@@ -16,6 +16,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "mongoose": "^5.11.8",
+    "sirv-cli": "^1.0.0",
+    "svelte-spinner": "^2.0.2"
   }
 }
