@@ -14,7 +14,9 @@ for override settings type..
 rename api/date.js to crud.js
 paste this in crud.js
 
-```let people = [{name: 'Patrick'}, {name: 'Sandy'}, {name: 'Bob'}]
+```
+let people = [{name: 'Patrick'}, {name: 'Sandy'}, {name: 'Bob'}]
+
 module.exports = function (req, res) {
   if (req.method === 'GET') {
     res.status(200).json(people);
